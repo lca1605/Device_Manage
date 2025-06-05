@@ -1,0 +1,3 @@
+Make sure .vscode file has installed, then open project in VScode and build it by ctrl + shift + B, after build, application file named program will be created in this folder, run it to run device manage program.
+
+Make sure you use feature 4 when exit program to save data, or all data will disappear.

@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build-project",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-std=c++17",
+        "-g",
+        "project/main.cpp",
+        "project/core/utils.cpp",
+        "project/data/file_io.cpp",
+        "project/modules/device_Manage.cpp",
+        "project/modules/tag_Manage.cpp",
+        "project/modules/borrow_Manage.cpp",
+        "project/app/features.cpp",
+        "project/app/display.cpp",
+        "-Iproject/core",
+        "-Iproject/data",
+        "-Iproject/modules",
+        "-Iproject/app",
+        "-o",
+        "${workspaceFolder}/program"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}

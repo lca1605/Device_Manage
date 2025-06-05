@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "name": "windows-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/project/**",
+        "${workspaceFolder}/project/core",
+        "${workspaceFolder}/project/data",
+        "${workspaceFolder}/project/modules",
+        "${workspaceFolder}/project/app"
+      ],
+      "defines": [],
+      "compilerPath": "C:/MinGW/mingw64/bin/g++",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
+}
